@@ -1,1 +1,305 @@
-# Hello
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+
+.main_container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.main_container .left_column {
+    position: relative;
+    background: #1F5C5E;
+    padding: 40px;
+  }
+
+.main_container .right_column {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+  }
+
+.profile_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #49B2B6;
+}
+
+.profile_text .img_box {
+    position: relative;
+    width: 210px;
+    height: 220px;
+}
+
+.profile_text .img_box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_text h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile_text h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+
+
+.contacts {
+    padding-top: 30px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacts ul {
+    position: relative;
+}
+
+.contacts ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contacts ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #49B2B6;
+}
+
+.contacts ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+.skills {
+    padding-top: 30px;
+}
+
+.skills ul {
+    position: relative;
+}
+
+.skills ul li {
+    position: relative;
+    color: #49B2B6;
+    margin: 10px 20px;  
+}
+
+.skills ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+.languages {
+    padding-top: 30px;
+}
+
+.languages ul {
+    position: relative;
+}
+
+.languages ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;  
+}
+
+.languages ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+.summery {
+    margin-bottom: 50px;
+}
+
+.summery:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: #1F5C5E;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+
+
+.education {
+    margin-bottom: 50px;
+}
+
+.education li {
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.education h5 {
+    color: #49B2B6;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.education h4:nth-child(2) {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.education h4 {
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+
+
+.work li {
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.work h5 {
+    color: #49B2B6;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.work h4:nth-child(2) {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.work h4 {
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.work p {
+    color: #333;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+
+
+.footer {
+    background-color: #49B2B6;
+    padding: 20px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+
+
+.github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: calc(100% - 24px);
+    height: 2px;
+    background-color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
