@@ -16,12 +16,6 @@
 }
 
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    min-height: 50px;
-}
-
 
 .main_container {
     position: relative;
@@ -250,11 +244,15 @@ p {
 }
 
 
+footer {
+    display: block;
+}
 
 
 .footer {
     background-color: #49B2B6;
     padding: 20px;
+    min-width: 1000px;
 }
 
 .footer_container {
@@ -263,25 +261,21 @@ p {
     align-items: center;
     margin: 0 auto;
     color: #fff;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 40px;
 }
-
-
-
 
 .github {
     color: #fff;
     text-decoration: none;
     line-height: 45px;
-}
-
-.nav-link {
     position: relative;
     padding: 0 12px;
     text-decoration: none;
     font-size: 20px;
     font-weight: 300;
     line-height: 50px;
-    color: #fff;
 }
 
 .nav-link::after {
