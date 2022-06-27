@@ -1,2 +1,3 @@
 # rsschool-cv
-https://rolling-scopes-school.github.io/ElizavetaPilyak-JSFEPRESCHOOL2022Q2/travel/
+https://ElizavetaPilyak.github.io/rsschool-cv/cv
+https://ElizavetaPilyak.github.io/rsschool-cv/
